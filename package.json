@@ -1,0 +1,33 @@
+{
+  "name": "gitclash",
+  "version": "1.0.2",
+  "description": "GitClash - Clash between GitProfiles",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "github",
+    "github-api",
+    "github-profile"
+  ],
+  "author": "Archit Bansal & Manish Arora",
+  
+  "dependencies": {
+    "axios": "^0.21.2",
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.7",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "lodash": "^4.17.21",
+    "node-fetch": "^2.6.7",
+    "npm": "^6.14.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
